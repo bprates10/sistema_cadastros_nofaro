@@ -1,0 +1,43 @@
+Objetivo
+x Criar uma aplicação que contenha​:
+
+V Lista de pessoas
+V Inclusão de uma pessoa
+V Remoção de uma pessoa
+V Filtro por nome e por e-mail
+
+
+
+
+V Descrição
+Uma pessoa terá as seguintes informações cadastradas:
+V Nome
+V E-mail
+V DDD
+V Telefone
+V A lista de pessoas deve mostrar todas as informações cadastradas e ser ordenada por nome.
+
+V Ao incluir uma pessoa as seguintes validações devem ser feitas no backend:
+V Nome: obrigatório e com no mínimo 2 caracteres
+V E-mail: obrigatório, ser um e-mail válido e único na base de dados
+V DDD: opcional, numérico com no máximo 2 dígitos
+V Telefone: opcional, numérico com 9 dígitos
+V Antes de remover uma pessoa é preciso mostrar uma confirmação da ação.
+
+V O filtro por nome ou e-mail deve ser feito no backend.
+V O nome poderá ser buscado por strings parciais, já o e-mail deve ser por busca exata.
+x Caso a busca seja feita por nome e por e-mail deve ser retornada a lista de pessoas que passem em uma ou (não exclusivo) em outra condição.
+
+Regras
+V Utilizar Laravel para o desenvolvimento do backend
+V Utilizar MySQL como base de dados
+x Recomenda-se o uso de Vue.js para o desenvolvimento do frontend
+V O uso de libs é livre
+
+x Entregar o resultado através de um sistema de controle de versão (Github, Bitbucket, ...)
+x Ter instruções de como instalar a aplicação
+
+O que será avaliado
+V Organização do código
+V Simplicidade da solução apresentada
+x Cumprimento dos requisitos apresentados na descrição
